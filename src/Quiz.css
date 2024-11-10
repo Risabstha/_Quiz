@@ -1,0 +1,130 @@
+/* General Styles for the Quiz Container */
+.quiz {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info {
+    margin-bottom: 20px;
+  }
+  
+  .question_count {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .total_count {
+    color: #777;
+  }
+  
+  .question {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for Option Buttons */
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .option {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .option:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .option:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
+  /* Correct and Incorrect Answer Styling */
+  .correct {
+    background-color: #4caf50;
+    color: white;
+    border-color: #4caf50;
+  }
+  
+  .incorrect {
+    background-color: #f44336;
+    color: white;
+    border-color: #f44336;
+  }
+  
+  /* Next Button */
+  .next {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .next:hover {
+    background-color: #0056b3;
+  }
+  
+  .next:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  /* End Screen */
+  .end-screen {
+    text-align: center;
+  }
+  
+  .finished {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .end-screen p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .retry {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .retry:hover {
+    background-color: #218838;
+  }
+  
+  .retry:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
